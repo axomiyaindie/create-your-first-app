@@ -1,0 +1,82 @@
+﻿# ===== Node / JS =====
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# ===== Environment =====
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+.idea/
+.vscode/
+*.lock.bak
+
+# ===== Android =====
+*.apk
+*.aab
+*.ap_
+*.dex
+local.properties
+.gradle/
+cxx/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ===== Tauri / Rust (desktop) =====
+src-tauri/target/
+target/
+Cargo.lock
+
+# ===== Python (fullstack helpers) =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== OS / Editors =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Logs / temp =====
+*.log
+logs/
+tmp/
+temp/
+
+# ===== IDE =====
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo

@@ -1,4 +1,46 @@
-﻿* text=auto eol=lf
-*.png binary
-*.jpg binary
-*.ico binary
+﻿# Auto-detect text files, normalize to LF in the repo
+* text=auto eol=lf
+
+# Explicit source file types
+*.js    text eol=lf
+*.jsx   text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.scss  text eol=lf
+*.dart  text eol=lf
+*.kt    text eol=lf
+*.kts   text eol=lf
+*.rs    text eol=lf
+*.toml  text eol=lf
+
+# Windows scripts keep CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Binaries - do not touch
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.pdf   binary
+*.zip   binary
+*.apk   binary
+*.aab   binary
+
+# Lockfiles - don't diff, don't merge
+pnpm-lock.yaml  -diff merge=binary
+package-lock.json -diff merge=binary
+yarn.lock       -diff merge=binary
