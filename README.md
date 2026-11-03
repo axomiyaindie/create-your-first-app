@@ -1,4 +1,4 @@
-﻿# create-your-first-app
+# create-your-first-app
 
 **Start building real apps - web, mobile, and desktop - even if you have never coded before.**
 
