@@ -38,6 +38,7 @@ flutter/
 ```
 
 ## Next steps
-- With AI: use [skills/build-flutter-app.md](../../skills/build-flutter-app.md)
+- With AI: use [skills/build-flutter-app.md](../../../skills/mobile-development/build-flutter-app.md)
 - Without AI: https://docs.flutter.dev/get-started/codelab
+
 

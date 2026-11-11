@@ -38,6 +38,7 @@ nextjs/
 ```
 
 ## Next steps
-- With AI: use [skills/build-nextjs-app.md](../../skills/build-nextjs-app.md)
+- With AI: use [skills/build-nextjs-app.md](../../../skills/web-development/build-nextjs-app.md)
 - Without AI: https://nextjs.org/learn
+
 

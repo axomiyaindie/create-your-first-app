@@ -1,84 +1,140 @@
 ﻿# Getting Started
 
-New to coding? Start here. This page takes you from **nothing installed** to a **running app** in about 20 minutes.
+New to programming? This guide helps you prepare your computer, choose a technology, and use an AI coding agent to build your first application.
 
-## 1. What do you want to build?
+You do not need to understand every line of code before you begin. You should, however, review what your AI agent creates and ask it to explain unfamiliar decisions.
 
-| I want to build... | Go to starter | Skill to use with AI |
+## 1. Choose what you want to build
+
+| Your goal | Starter documentation | Development guide |
 |---|---|---|
-| A website or web app | [starters/nextjs](../../starters/nextjs/) | [skills/build-nextjs-app.md](../../skills/build-nextjs-app.md) |
-| A blog / content site | [starters/astro](../../starters/astro/) | [skills/build-astro-site.md](../../skills/build-astro-site.md) |
-| A mobile app (iOS + Android) | [starters/flutter](../../starters/flutter/) | [skills/build-flutter-app.md](../../skills/build-flutter-app.md) |
-| A native Android app | [starters/android](../../starters/android/) | [skills/build-android-app.md](../../skills/build-android-app.md) |
-| A desktop app (Win/Mac/Linux) | [starters/tauri](../../starters/tauri/) | [skills/build-tauri-desktop.md](../../skills/build-tauri-desktop.md) |
-| A full app with backend + database | [starters/fullstack](../../starters/fullstack/) | [skills/build-fullstack-app.md](../../skills/build-fullstack-app.md) |
+| Website or web application | [Next.js](../../starters/web/nextjs/) | [Next.js guide](../../skills/web-development/build-nextjs-app.md) |
+| Blog or content website | [Astro](../../starters/web/astro/) | [Astro guide](../../skills/web-development/build-astro-site.md) |
+| Cross-platform mobile app | [Flutter](../../starters/mobile/flutter/) | [Flutter guide](../../skills/mobile-development/build-flutter-app.md) |
+| Native Android app | [Android](../../starters/mobile/android/) | [Android guide](../../skills/mobile-development/build-android-app.md) |
+| Desktop application | [Tauri](../../starters/desktop/tauri/) | [Tauri guide](../../skills/desktop-development/build-tauri-desktop.md) |
+| Full-stack application | [Next.js and Prisma](../../starters/fullstack/nextjs-prisma/) | [Full-stack guide](../../skills/fullstack-development/build-fullstack-app.md) |
 
-## 2. Install the essentials (once)
+Check each starter's README to see whether it contains a runnable project or documentation only.
 
-You need **Node.js**, **Git**, and a code editor. Pick your OS:
+## 2. Install the essentials
+
+You will generally need Git, Node.js, a code editor, and an AI coding agent. Individual technologies may require additional tools.
 
 ### Windows
+
+Open PowerShell:
+
 ```powershell
-winget install OpenJS.NodeJS.LTS
 winget install Git.Git
-npm install -g pnpm
+winget install OpenJS.NodeJS.LTS
 winget install Microsoft.VisualStudioCode
+npm install -g pnpm
 ```
 
+Restart your terminal after installation.
+
 ### macOS
+
+Open Terminal:
+
 ```bash
-brew install node git pnpm
+brew install git node pnpm
 brew install --cask visual-studio-code
 ```
 
-### Linux (Debian/Ubuntu)
+### Linux
+
+On Debian or Ubuntu:
+
 ```bash
 sudo apt update
-sudo apt install -y nodejs npm git
+sudo apt install -y git nodejs npm
 sudo npm install -g pnpm
 ```
 
-### Verify everything works
+Check the official Node.js installation instructions if your distribution provides an outdated version.
+
+### Verify the installations
+
 ```bash
-node -v      # v18 or higher
-npm -v
-pnpm -v
 git --version
+node --version
+npm --version
+pnpm --version
 ```
 
-## 3. Use an AI agent (optional but powerful)
+Use the current supported Node.js LTS release and check the selected technology's requirements.
 
-You do **not** need to know how to code. Open one of these:
+## 3. Choose an AI coding agent
 
-- **Claude** - https://claude.ai
-- **Cursor** - https://cursor.com
-- **GitHub Copilot** - inside VS Code
+Some options include:
 
-Then:
+- [Claude Code](https://claude.com/product/claude-code)
+- [OpenAI Codex](https://openai.com/codex/)
+- [Cursor](https://cursor.com/)
+- [GitHub Copilot](https://github.com/features/copilot)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-1. Open the skill file for your stack (e.g. `skills/build-nextjs-app.md`)
-2. Copy the whole file into the AI chat
-3. Say: *"Follow this skill. Build me a [your idea]."*
-4. Let it work. Ask questions if anything fails.
+Choose an agent that can access your project files and run terminal commands, if you want it to scaffold and test the application directly.
 
-## 4. Typical first session
+## 4. Give the agent a development guide
+
+For example, if you want to build a Next.js application:
+
+1. Open [the Next.js development guide](../../skills/web-development/build-nextjs-app.md).
+2. Copy its instructions into your AI coding agent, or point the agent to the file if it can access the repository.
+3. Describe the application you want to create.
+4. Ask the agent to explain the important steps, implement the application, and verify that it works.
+
+A useful first prompt:
+
+```text
+Follow the Next.js development guide.
+
+I am new to programming. Help me build a personal portfolio website.
+
+Explain the important steps, create the project, run it locally,
+and verify that the main features work.
+
+Do not skip setup instructions or silently ignore errors.
+```
+
+## 5. Run your application
+
+The development guide should explain how to create the project and install its dependencies.
+
+For a typical Next.js project, the commands after scaffolding are:
 
 ```bash
-cd starters/nextjs
-cat README.md
 pnpm install
 pnpm dev
 ```
 
-Open the URL shown (usually http://localhost:3000) - you have a running app.
+Open the local address shown in the terminal, usually `http://localhost:3000`.
 
-## 5. What next?
+These commands assume the AI agent has already created a Next.js project in the current directory. They will not work inside this repository's documentation-only starter directory.
 
-- Read the [FAQ](../faq/) for common problems
-- Browse [skills/](../../skills/) for step-by-step build instructions
-- Commit your work: `git add . && git commit -m "feat: my first app"`
+## 6. Learn as you build
 
-## Still stuck?
+- Read the [FAQ](../faq/README.md) for common problems.
+- Browse the [development skills](../../skills/README.md).
+- Explore the [application starters](../../starters/README.md).
+- Learn about [AI coding agents](../../agents/README.md).
+- Read the [contribution guidelines](../../CONTRIBUTING.md).
 
-Open an issue: https://github.com/axomiyaindie/create-your-first-app/issues
+## 7. Save your work
 
+When your project is working, you can save it with Git:
+
+```bash
+git init
+git add .
+git commit -m "feat: create my first application"
+```
+
+You can later publish your project to a Git hosting service.
+
+## Need help?
+
+If you encounter a problem with this repository, check the FAQ or [open an issue](https://github.com/axomiyaindie/create-your-first-app/issues).

@@ -35,6 +35,7 @@ android/
 ```
 
 ## Next steps
-- With AI: use [skills/build-android-app.md](../../skills/build-android-app.md)
+- With AI: use [skills/build-android-app.md](../../../skills/mobile-development/build-android-app.md)
 - Without AI: https://developer.android.com/courses/android-basics-compose/course
+
 

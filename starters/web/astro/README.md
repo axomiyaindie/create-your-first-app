@@ -36,6 +36,7 @@ astro/
 ```
 
 ## Next steps
-- With AI: use [skills/build-astro-site.md](../../skills/build-astro-site.md)
+- With AI: use [skills/build-astro-site.md](../../../skills/web-development/build-astro-site.md)
 - Without AI: https://docs.astro.build/en/tutorial/0-introduction/
+
 

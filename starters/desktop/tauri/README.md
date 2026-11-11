@@ -38,6 +38,7 @@ tauri/
 ```
 
 ## Next steps
-- With AI: use [skills/build-tauri-desktop.md](../../skills/build-tauri-desktop.md)
+- With AI: use [skills/build-tauri-desktop.md](../../../skills/desktop-development/build-tauri-desktop.md)
 - Without AI: https://v2.tauri.app/start/
+
 
