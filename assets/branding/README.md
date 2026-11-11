@@ -2,8 +2,6 @@
 
 Identity for **Create Your First App (CYFA)**, an open-source toolkit that helps beginners build applications with AI coding agents and helps experienced developers move faster.
 
-![Brand preview](brand-preview.png)
-
 ## The symbol
 
 | Element | Meaning |
@@ -37,7 +35,6 @@ Measured contrast (WCAG): violet on white 4.8:1, blue on white 3.5:1, navy on wh
 | `logo-monochrome.svg` | Single colour (`#101426`). Stamps, one-colour print, watermarks. To recolour, replace every `#101426`. |
 | `logo-icon.svg` | Standalone symbol. Avatars, app icons, social profile images. Works on light and dark backgrounds. |
 | `favicon.svg` | Symbol with heavier brackets and a larger tile, tuned for 16–32 px. Works on light and dark browser tabs. |
-| `brand-preview.png` | Overview sheet of the identity. Not for production use. |
 
 All SVGs are self-contained with transparent backgrounds: no raster images, no filters, no external fonts. The wordmark is outlined to paths from Inter SemiBold (SIL Open Font License).
 
