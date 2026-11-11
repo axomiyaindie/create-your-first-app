@@ -12,13 +12,13 @@ You don't need to explore the entire repository. Start with the section that mat
 | Explore ready-to-use starter projects | [`starters/`](starters/README.md) |
 | Learn how to build with AI coding agents | [`skills/`](skills/README.md) |
 | Set up or configure an AI coding agent | [`agents/`](agents/README.md) |
-| Understand programming and development fundamentals | [`docs/fundamentals/`](docs/fundamentals/) |
+| Understand programming and development fundamentals | [`docs/fundamentals/`](docs/fundamentals/README.md) |
 | Learn about web development | [`skills/web-development/`](skills/web-development/README.md) |
 | Build mobile applications | [`skills/mobile-development/`](skills/mobile-development/README.md) |
 | Build desktop applications | [`skills/desktop-development/`](skills/desktop-development/README.md) |
 | Build backend or full-stack applications | [`skills/backend-development/`](skills/backend-development/README.md) |
-| Deploy an application | [`docs/deployment/`](docs/deployment/) |
-| Troubleshoot a development problem | [`docs/troubleshooting/`](docs/troubleshooting/) |
+| Deploy an application | [`docs/deployment/`](docs/deployment/README.md) |
+| Troubleshoot a development problem | [`docs/troubleshooting/`](docs/troubleshooting/README.md) |
 | Contribute to this project | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
 ---

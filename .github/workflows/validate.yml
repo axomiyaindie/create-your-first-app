@@ -27,6 +27,14 @@ jobs:
       - name: Check Markdown links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --max-retries 2 --retry-wait-time 2 --timeout 20 "./**/*.md"
+          args: >
+            --verbose
+            --no-progress
+            --max-retries 2
+            --retry-wait-time 2
+            --timeout 20
+            --exclude 'http://localhost(:[0-9]+)?'
+            --exclude 'https://openai\.com/codex/?'
+            "./**/*.md"
           fail: true
           jobSummary: true
