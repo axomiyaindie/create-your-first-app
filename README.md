@@ -73,7 +73,7 @@ Check individual resource READMEs for availability, setup instructions, and test
 
 Have a useful skill, starter project, guide, or improvement to share?
 
-Read the [Contributing Guide](CONTRIBUTING.md) and help make application development more accessible.
+Kindly read the [Contributing Guide](CONTRIBUTING.md) and help make application development more accessible.
 
 Released under the [MIT License](LICENSE).
 
